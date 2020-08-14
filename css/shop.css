@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #757575	
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+	
+	
+}
+
+img{
+	max-width: 100%
+}
+
+.single_shop{
+	background: #fff
+}
+.single_shop_inner{
+	position: relative
+}
+.shop_image_out{
+	position: relative
+}
+.shop_image_out:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	background: #000;
+	opacity: .5;
+	transition: .8s;
+		opacity: 0;
+	visibility: hidden;
+	z-index: 1
+
+}
+.shop_img{
+	position: relative
+}
+.shop_img:after{
+	position: absolute;
+
+	content: "";
+	width: 50px;
+	border-top: 2px solid #FCB80B;
+	top: 20px;
+	left: 20px;
+	border-left: 2px solid #FCB80B;
+	height: 50px;
+	opacity: 0;
+	visibility: hidden;
+	transition:.8s;
+
+	
+}
+.shop_img:before{
+	position: absolute;
+
+	content: "";
+	width: 50px;
+	border-bottom: 2px solid #FCB80B;
+	bottom: 20px;
+	right: 20px;
+	border-right: 2px solid #FCB80B;
+	height: 50px;
+		opacity: 0;
+	visibility: hidden;
+	transition: .8s;
+	
+	
+}
+
+
+.shop_icon{
+	position: absolute;
+	top: 32%;
+	right: 36%;
+	transition: all .8s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 2
+	
+	
+}
+.shop_icon i{
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	background: #000;
+	border-radius: 50%;
+	opacity: .8;
+	text-align: center;
+	line-height: 2.9;
+}
+.single_shop_inner:hover .shop_image_out:after{
+	opacity: .5;
+	visibility: visible;
+}
+.single_shop_inner:hover .shop_icon{
+	opacity: 1;
+	visibility: visible;
+}
+.single_shop_inner:hover .shop_img:before{
+	opacity: 1;
+	visibility: visible;
+}
+
+.single_shop_inner:hover .shop_img:after{
+	opacity: 1;
+	visibility: visible;
+}
+
+.shop_price{
+	text-align: center;
+	padding: 10px 0;
+	border-top: 1px solid #dbd6d6;
+}
+.single_shop{
+	margin-bottom: 30px
+}
+.shop_price h3{
+	color: #000;
+	font-weight: 300;
+	font-size: 20px
+}
+.shop_price p{
+	color: #FCB80B;
+	font-size: 18px;
+	font-weight: 600;
+}
+

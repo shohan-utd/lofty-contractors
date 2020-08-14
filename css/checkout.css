@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #757575	
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+	
+	
+}
+
+img{
+	max-width: 100%
+}
+
+.billing_section{}
+.billing_section input,select,textarea{
+	width: 100%;
+	border: 1px solid #c6c4c4
+}
+.billing_section textarea{
+  padding-bottom: 50px
+}
+
+
+.billing_section input,select{
+	padding: 10px;
+	margin-bottom: 30px
+}
+
+
+.billing_section label{
+	font-size: 14px;
+	font-weight: 600
+}
+.billing_section h3{
+	color: #000;
+	font-size: 22px;
+	font-weight: 400
+}
+.billing_section input[type=checkbox]{
+	width: 0
+}
+.checkbody{
+	background: #fff
+}
+
+.payment_system{
+	background: #FAFAFA;
+	border: 1px solid #edeaea;
+	padding: 40px
+}
+
+.title_m h3{
+	color: #000;
+	font-size: 22px
+}
+
+.title_t h3{
+	color: #000;
+	font-size: 22px
+}
+.title_s h5{
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 15px
+}
+
+.title_t{
+	margin-bottom: 35px
+}
+.title_s,.title_p{
+	margin-top: 35px
+}
+.title_p p{
+	color: #FCB80B;
+	font-size: 20px
+}
+.title_d{
+	color: #000;
+	font-size: 18px
+}
+
+.payment_bottom{
+	margin-top: 40px;
+	border-top: 1px solid #d3d3d3;
+	padding-top: 20px
+	
+}
+.payment_bottom p{
+	color: #000;
+	font-size: 20px;
+	margin-bottom: 40px
+}
+.payment_bottom span{
+	color: #FCB80B
+}
+.payment_bottom  img{
+
+}
+
+.payment_bottom input[type=submit]{
+	display: block;
+	width: 100%;
+	background: #424141;
+	color: #fff;
+	border: none;
+	padding: 12px 0px;
+	margin-top: 20px
+}
+.payment_bottom label{
+	color: #000;
+	font-weight: 700;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	text-transform: capitalize
+}
+
+.checkout_section{
+	padding-top: 80px;
+	padding-bottom: 80px
+}
+
+
+
+
